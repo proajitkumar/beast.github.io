@@ -668,6 +668,9 @@ footer{
     }
     #msg input, #msg textarea{
         font-size: 50%;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #000;
     }
     #site-logo{
         padding-bottom: 0;
@@ -679,10 +682,8 @@ footer{
         width: 20px;
         padding-bottom: 5px;
     }
-    #msg form input, #msg form text-area{
-        outline : none
-    }
-
+    
+    
     /* Slider */
     #slider-2{order: 2;}
     #item-label-2{order: 1;}
